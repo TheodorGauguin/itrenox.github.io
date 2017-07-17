@@ -1,0 +1,131 @@
+body {
+	background-image: url(freedom_background_enhanced_sharp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+h1 {
+	width: 80%;	
+	margin: 50px auto;
+	margin-bottom: 40px;	
+	color: white;
+	/*font-family: 'Libre Baskerville', serif;*/
+}
+
+h2 {
+	font-size: 23px;
+	color: rgba(255,255,255,.85);
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-size: 15px;
+	color: rgba(255,255,255,.85);
+}
+
+h5 {
+	color: rgba(255,255,255,.6);
+}
+
+/* Stuff in legal section */
+h4 {
+	color: rgba(255,255,255,.8);
+	text-align: center;	
+	font-size: 12px;
+}
+a {
+	color: rgba(255,255,255,.8);
+}
+a:hover {
+	color: rgba(255,255,255,.8);
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+.btn-lg {
+	width: 40%;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.green {
+	color: rgb(110, 198, 71);
+}
+
+.italic {
+	font-style: italic;
+}
+
+.btn-success {
+	background: rgb(88, 178, 49);
+}
+
+.inline {
+	vertical-align: middle;
+	display: inline;
+	height: 100%;
+} 
+
+#legal {
+	background-color: rgba(0,0,0,.9);
+	position: fixed;
+	top: auto;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+#inputEmail3 {
+	width: 50%;
+	margin-right: 15px;
+	font-size: 20px;
+}
+
+#content {
+	background-color: rgba(0,0,0,.6);
+	padding: 40px 40px;
+	margin: 100px auto;
+	width: 900px;
+	text-align: center;
+}
+
+#formDiv {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 10px;
+	background-color: rgba(0,0,0,.3);
+}
+
+@media (max-width: 930px) {
+	#content {
+		margin: 50px auto;
+		width: 100%;
+	}
+}
+
+@media (max-width: 740px) {
+	h1 {
+		width: 100%;
+	}
+	#content {
+		margin: 0 auto;
+		margin-bottom: 60px;
+		padding: 20px 20px;
+	}
+	.inline {
+		display:block;
+	}
+	#inputEmail3 {
+		width: 100%;
+	}
+	.btn-lg {
+		width: 100%
+	}
+}

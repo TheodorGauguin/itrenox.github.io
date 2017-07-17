@@ -5,7 +5,7 @@
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="stylev11.css">
 </head>
 <body>
 <div id="content">
@@ -18,10 +18,15 @@
 	<h2>This is NOT a get-rich-quick scheme but a real system for building a real online business. <span class="underlined">You can literally get started 
 	within the next <strong class="italic">5 minutes</strong>!</span></h2>
 	<h3>Do you want instant access? Tell us what Email you'd like us to send it to:</h2>
-	<div id="formDiv" action="/thankyou.php" method="post">
-		<form class="inline" id="myForm">
-			<input type="email" name="email" placeholder="Enter Your Best Email Adress..." class="form-control inline" id="inputEmail3">
-			<button id="submitbtn" type="submit" class="btn btn-success btn-lg inline">&raquo; Send me my FREE course!</button>
+	<div id="formDiv">
+		<form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+	<!-- E-Mail-Feld (erforderlich) -->
+			<input type="text" name="email" placeholder="Enter Your Best Email Adress..." class="form-control inline" id="inputEmail3" /><br/>
+	<!-- Kampagnen-Token -->
+	<!-- Token holen unter: https://app.getresponse.com/campaign_list.html -->
+			<input type="hidden" name="campaign_token" value="Tvepu" />
+	<!-- „Kontakte“-Button -->
+			<input type="submit" value="&raquo; Take me to the money making system!" id="submitbtn"/>
 		</form>
 	</div>
 	<h5>&#128274; We have a strict policy against spam, your information will be handled confidentially.</h3>
